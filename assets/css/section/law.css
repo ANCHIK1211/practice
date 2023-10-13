@@ -1,0 +1,30 @@
+.law {
+    background-color: black;
+    padding: 93px 0 103px 0;
+
+}
+.container {
+}
+.law__container {
+}
+.law__wrap {
+    border: 3px solid #C28221;
+    padding: 69px 104px 69px 102px;
+}
+.law__desc {
+    color: #FFF;
+font-family: 'Roboto';
+font-size: 1.65vw;
+font-weight: 700;
+}
+
+.kashback {
+    margin: 160px 0 165px 0;
+    background-color: #006848;
+}
+.container {
+}
+.kash__container {
+}
+.kashback__img {
+}

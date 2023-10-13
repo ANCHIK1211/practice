@@ -1,0 +1,43 @@
+.questions {
+    padding: 120px 0;
+}
+
+.quest__container {
+}
+
+.quest__title {
+    font-family: 'Roboto';
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 51px;
+}
+
+.questions-wrap {
+    display: flex;
+}
+.questions__theme {
+    width: 40%;
+}
+.quest__theme-link {
+    color: #000;
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 700;
+line-height: 298.9%;
+}
+
+.quest__accord-list{
+    width: 60%;
+}
+
+.quest__select{
+    display: none;
+}
+
+.quest__accord-list{
+    display: none;
+}
+
+.quest__accord-list.active{
+    display: block;
+}

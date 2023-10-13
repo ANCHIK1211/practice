@@ -1,0 +1,535 @@
+@media (max-width: 2000px) {
+    :root {
+        --container-width: 63%
+    }
+
+    .hero__title {
+        font-size: 3.8vw;
+    }
+}
+
+
+
+
+@media (max-width: 1440px){
+    .sertif__wrap{
+        flex-direction: column;
+    }
+    .sertif__img{
+        margin-top: 42px;
+    }
+    .sertif__img{
+        justify-content: center;
+        align-items: center;
+    }
+    .sertif__subtitle{
+        font-size: 16px;
+    }
+    .header{
+        display: none;
+    }
+    .header__mobile{
+        display: block;
+    }
+    .nav-header__mobile{
+        display: flex;
+    }
+    .logo__mobile-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .nav__mobile-wrap{
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 20px;
+    }
+    .fine__summ{
+        font-size: 20px;
+    }
+    .fine__text{
+        font-size: 14px;
+    }
+    .resp__subtitle{
+        font-size: 16px;
+    }
+    .resp__title{
+        font-size: 48px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1150px) {
+
+    :root {
+        --container-width: 75%
+    }
+    
+    .adv__title {
+        font-size: 16px;
+    }
+
+    .adv__subtitle {
+        font-size: 12px;
+    }
+
+    .desc__item {
+        font-size: 14px;
+    }
+
+    .desc__img-icon {
+        width: 218px;
+        height: 198px;
+    }
+
+    .select-course {
+        font-size: 16px;
+    }
+
+    .accord-body__text {
+        font-size: 14px;
+    }
+
+    .corse__learn-title {
+        font-size: 36px;
+    }
+
+    .cource__learn-list {
+        display: block;
+    }
+
+    .coursw__learn-item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .form__btns {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .form__btn-item {
+        margin: 0 0 15px 0;
+        height: 79px;
+        width: 318px;
+    }
+
+    .format__img-wrap {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .btn__distance {
+        color: #000;
+        border-radius: 20px;
+        border: #000 solid 1px;
+        background: #FFF;
+        height: 79px;
+        width: 50%;
+        flex-shrink: 0;
+        text-align: center;
+        padding: 21px 0;
+    }
+    .btn__distance.active{
+        color: #FFF;
+        border-radius: 20px;
+        border: #C28221;
+        background: #C28221;
+    
+
+    }
+    .format__btns{
+        column-gap: 20px;
+        font-size: 24px;
+    }
+
+
+
+    .format__img{
+        width: 221px;
+height: 201px;
+    }
+    .format__info-title{
+        font-size: 16px;
+    }
+    .format__info-desc{
+        font-size: 14px;
+        margin-top: 18px;
+    }
+    .kashback{
+        display: none;
+    }
+    .application__form{
+        margin-top: 6.8%;
+    }
+    .applic__form-img{
+        display: none;
+    }
+    .applic__form-wrap{
+        flex-direction: column;
+    }
+    .applic__form-text{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    .applic__form {
+        width: 100%;
+    
+    }
+    .form__applic-subtitle{
+        width: 50%;
+    }
+    .footer-wrap__third-columns{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer-wrap__two-columns{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    .footer-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-wrap__first-column{
+        margin-right: 5.2%;
+    }
+    .questions__theme{
+        display: none;
+    }
+    .quest__select{
+        display: block;
+    }
+    .questions-wrap{
+        flex-direction: column;
+    }
+    .quest__accord-list{
+        width: 100%;
+    }
+    .priv__title{
+        font-size: 48px;
+        margin-top: 86px;
+        margin-bottom: 70px;
+    }
+    
+}
+
+
+@media (max-width: 940px){
+    .fine__summ{
+        font-size: 14px;
+    }
+    .fine__text{
+        font-size: 10px;
+    }
+    .form__applic-subtitle{
+        width: 60%;
+    }
+    .certif__title{
+        font-size: 36px;
+    }
+
+}
+
+
+
+@media (max-width: 730px){
+    :root {
+        --container-width: 88%
+    }
+    .cource__title{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media (max-width: 613px){
+    .hero__list{
+        display: none;
+    }
+    .hero__title{
+        font-size: 36px;
+        text-align: center;
+        margin-top: 34px;
+        margin-bottom: 26px;
+    }
+    .hero__img-wrap__mobile{
+        display: block;
+     
+    }
+    .hero__img-wrap{
+        display: none;
+        
+    }
+    .hero__content-top {
+        display: block;
+    }
+    .hero__img-mobile{
+        width: 160px;
+height: 127px;
+    }
+    .hero__content{
+        text-align: center;
+      align-items: center;
+    }
+    .hero__applic-wrap{
+       
+     text-align: center;
+    }
+    .description{
+        display: none;
+    }
+    .responsibility{
+        display: none;
+    }
+    .responsibility-mobile{
+        display: block;
+        background: #000;
+        margin-top: 88px;
+    }
+    .certificate{
+        display: none;
+    }
+    .law{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .prog__title{
+        font-size: 24px;
+    }
+    .accord-body__duration{
+        display: none;
+     }
+     .resp__fine{
+        display: flex;
+        flex-direction: column;
+     }
+     .fine{
+        width: 100%;
+     }
+     .fine__people{
+        margin-bottom: 30px;
+     }
+     .resp__title{
+        font-size: 24px;
+     }
+     .resp__subtitle{
+        font-size: 14px;
+    
+     }
+     .fine__summ{
+        font-size: 16px;
+        line-height: 20px;
+     }
+     .format__btns{
+        display: none;
+     }
+     .format__select-mobile{
+        display: block;
+     }
+     .format__img-wrap{
+        display: none;
+     }
+     .format__img-wrap__mobile{
+        display: block;
+     }
+     .format__content.active{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+     }
+
+     .format__info{
+        width: 100%;
+     }
+
+     .format__info-desc{
+        text-align: left;
+     }
+     .format__title{
+        font-size: 24px;
+        margin-bottom: 40px;
+     }
+     .format__info-desc{
+        margin: 29px 0 0 0;
+        font-size: 14px;
+     }
+     .applic__title{
+        font-size: 38px;
+     }
+     .applic__form-wrap{
+        padding: 27px 60px 60px;
+     }
+
+     .applic__input-label{
+        width: 100%;
+     }
+     .applic__form{
+        position: relative;
+     }
+     .applic__input {
+      padding: 0;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 24px;
+    }
+    .applic__btn{
+        height: 50px;
+        width: 100%;
+    }
+    .form__applic-subtitle{
+        width: 90%;
+    }
+    .applic__btn-wrap{
+        width: 100%;
+    }
+    .section-line-bottom::after{
+        display: none;
+    }
+    }
+
+
+
+
+
+
+@media (max-width: 480px) {
+    :root {
+        --container-width: 100%
+    }
+
+    .container{
+        padding: 0 40px;
+        margin: 0 17px;
+    }
+    
+    .hero__list{
+        display: none;
+    }
+ .cource__desc-title{
+    font-size: 18px;
+ }
+ .cource__programm{
+    font-size: 18px;
+ }
+ .cource__desc-text{
+    font-size: 14px;
+ }
+ .accord-body__text{
+    font-size: 13px;
+ }
+ .corse__learn-title{
+    font-size: 24px;
+ }
+ .coursw__learn-item{
+    font-size: 14px;
+    list-style-type: none;
+ }
+ .cource__learn-list{
+    padding: 0;
+ }
+ .form__btn-item {
+    margin: 0 0 15px 0;
+    height: 53px;
+    width: 100%;
+}
+.accord-link{
+    font-size: 13px;
+    padding: 20px 8px;
+}
+.priv__title{
+    font-size: 24px;
+    margin-top: 52px;
+    margin-bottom: 40px;
+}
+.priv {
+    width: 248px;
+}
+.priv__img-wrap {
+    height: 130px;
+}
+.priv__info-title{
+    font-size: 18px;
+}
+.priv__info-subtitle{
+    font-size: 14px;
+}
+.applic__title{
+    font-size: 24px;
+ }
+ .applic__form-wrap{
+    padding: 27px 27px 67px;
+ }
+ .applic__form-title{
+    font-size: 18px;
+    margin-bottom: 33px;
+ }
+ .applic__subtitle-mobile{
+    color: #C28221;
+ }
+ .applic__btn{
+font-size: 18px;
+ }
+ .quest__title{
+    font-size: 24px;
+    margin-bottom: 35px;   
+ }
+ .gallery{
+    padding: 0;
+ }
+ .questions{
+    padding: 80px 0;
+ }
+ .select-course{
+    border-radius: 40px;
+text-align: center;
+font-size: 17px;
+ }
+ .teachers{
+    padding: 67px 0 80px;
+ }
+ .teach_title{
+    font-size: 24px;
+    margin-bottom: 40px;
+ }
+ .teacher__title{
+    font-size: 18px;
+    text-transform: capitalize;
+ }
+ .teacher__subtitle{
+    font-size: 14px;
+    text-transform: capitalize;
+ }
+ .cource__begin-icon{
+    height: 19px;
+    width: 19px;
+    margin-right: 10px;
+ }
+ .cource__begin-text{
+font-size: 12px;
+ }
+ .cource__begin{
+    margin-right: 15px;
+ }
+ .form__header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+ }
+}

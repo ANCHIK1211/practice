@@ -1,0 +1,42 @@
+.description {
+}
+
+.desc__container {
+}
+.desc__list {
+   margin-top: 6.8%;
+   margin-bottom: 12.8%;
+}
+.desc {
+    display: flex;
+    margin-bottom: 3.9%;
+    
+}
+.desc__img{
+   flex-shrink: 0;
+
+}
+.desc__img-icon {
+    border-radius: 60px 0px;
+border: 0px solid #000;
+width: 254px;
+height: 231px;
+}
+.desc__content {
+    padding-left: 30px;
+
+}
+
+.desc__title {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 1.9%;
+}
+
+.desc__content-list {
+    padding-left: inherit;
+}
+.desc__item {
+    color: #3E53A0;
+    list-style-type: square;
+}
